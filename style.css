@@ -1,0 +1,200 @@
+/* // BR FIRMA */
+@font-face {
+    font-family: 'CW BR Firma';
+    src: url('/fonts/BRFirmaCW-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: fallback;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CW BR Firma';
+    src: url('/fonts/BRFirmaCW-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: fallback;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CW BR Firma';
+    src: url('/fonts/BRFirmaCW-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: fallback;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CW BR Firma';
+    src: url('/fonts/BRFirmaCW-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-display: fallback;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f7fa;
+    font-family: "CW BR Firma";
+}
+
+.login-wrapper{
+    background-color: #f4f7fa;
+}
+
+.logo-container{
+    margin-top: 4rem;
+}
+
+.cowry{
+    display: block;
+    height: 5.5rem;
+}
+.info-container{
+    padding: 3px;
+    margin-bottom: 1.5rem;
+}
+
+.login-body{
+    margin: 20px;
+    width: 90%;
+}
+
+.top-text{
+    font-size: 2em;
+    margin-bottom: .6rem;
+    color: #0A2E65;
+}
+
+.sub-text{
+    font-size: 22.4px;
+    color: #0A2E654D;
+}
+
+.form-container{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border: 1px solid rgba(0,102,245,.15);
+}
+
+input{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 1.5em;
+    border: 1px solid rgba(10,46,101,.1);
+    color: #0A2E65;
+}
+
+a{
+    text-decoration: none;
+    color: #0066F5;
+    font-weight: 600;
+}
+
+.signin{
+    margin-bottom: 1.1rem;
+    font-weight: 600;
+}
+
+.btn-primary{
+    padding: 15px;
+    background-color: #0066F5;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footer{
+    margin-top: 30px!important;
+    width:100%;
+}
+
+.trbl{
+    color: #0A2E6599;
+}
+
+.user{
+    color: #0A2E6599;
+}
+
+.box-column2{
+    margin-bottom: 1.5rem;
+}
+
+.invite-code{
+    margin-bottom: 1.5rem;
+}
+
+.invite{
+    font-weight: 600;
+}
+
+@media (min-width:768px){
+    .login-container{
+        margin: 80px;
+    }
+
+    .logo-container{
+        margin: 20px;
+    }
+
+    .login-body{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        flex: 1 1 100%;
+        width: 1000px;
+    }
+
+    .info-container{
+        max-width: 50%;
+        text-align: left;
+        flex: 0 0 50%;
+    }
+
+    .auth-container{
+        max-width: 50%;
+        text-align: justify;
+        flex: 0 0 50%;
+    }
+
+    .form-container{
+        padding: 40px;
+    }
+
+    .box-column2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .signin{
+        max-width: 50%;
+        text-align: left;
+        flex: 0 0 50%;
+    }
+
+    .btn{
+        text-align: right;
+        max-width: 50%;
+        flex-basis:50%;
+    }
+
+    .top-text{
+        font-size: 2.5rem;
+    }
+
+    .sub-text{
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+}
